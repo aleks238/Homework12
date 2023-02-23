@@ -1,0 +1,13 @@
+<div>
+    <p></p>
+    <h3>Регистрация</h3>
+    <form novalidate ng-submit="registration()">
+        <input class="form-control" type="text" placeholder="Имя пользователя" ng-model="registrationData.username">
+        <p></p>
+        <input class="form-control" type="number" placeholder="Пароль" ng-model="registrationData.password">
+        <p></p>
+        <input class="form-control" type="text" placeholder="email" ng-model="registrationData.email">
+        <p></p>
+        <button type="submit" class="btn btn-primary">Сохранить изменения</button>
+    </form>
+</div>
